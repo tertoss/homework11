@@ -6,7 +6,7 @@ def factorial(n):
     return result
 
 def factorial_list_from_factorial_of_number(num):
-    fact_num = factorial(num)  # факториал входного числа
+    fact_num = factorial(num) 
     return [factorial(i) for i in range(fact_num, 0, -1)]
 
 input_number = 3
